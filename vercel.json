@@ -1,0 +1,7 @@
+{
+  "framework": "nextjs",
+  "engines": {
+    "node": "20.x",
+    "python": "3.9"
+  }
+}
