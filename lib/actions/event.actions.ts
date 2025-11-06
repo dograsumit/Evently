@@ -36,7 +36,7 @@ export async function createEvent({ userId, event, path }: CreateEventParams) {
     if(userId)
     {console.log(userId)}
     // Convert userId to mongoose.ObjectId
-    const organizerId = new mongoose.Types.ObjectId(userId.userId);
+    const organizerId = new mongoose.Types.ObjectId(userId);
     
     console.log(organizerId);
     console.log(typeof organizerId); // Should print 'object'
