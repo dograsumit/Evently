@@ -34,7 +34,7 @@ export async function createEvent({ userId, event, path }: CreateEventParams) {
     await connectToDatabase();
     console.log("connected to database");
     if(userId)
-    {console.log(userId?.userId)}
+    {console.log(userId)}
     // Convert userId to mongoose.ObjectId
     const organizerId = new mongoose.Types.ObjectId(userId.userId);
     
